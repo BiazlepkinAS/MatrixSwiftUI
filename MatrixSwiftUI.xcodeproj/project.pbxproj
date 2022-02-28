@@ -15,7 +15,7 @@
 		09A1F17B27CD137C001ADED9 /* MatrixSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F17A27CD137C001ADED9 /* MatrixSwiftUIUITests.swift */; };
 		09A1F17D27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F17C27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift */; };
 		09A1F19027CD15A1001ADED9 /* MatrixRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F18F27CD15A1001ADED9 /* MatrixRainView.swift */; };
-		09A1F19227CD261F001ADED9 /* Matrix Code NFI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09A1F19127CD261F001ADED9 /* Matrix Code NFI.ttf */; };
+		09A1F19A27CD2A30001ADED9 /* matrix code nfi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09A1F19927CD2A30001ADED9 /* matrix code nfi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		09A1F17C27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		09A1F18B27CD14EF001ADED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		09A1F18F27CD15A1001ADED9 /* MatrixRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainView.swift; sourceTree = "<group>"; };
-		09A1F19127CD261F001ADED9 /* Matrix Code NFI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Matrix Code NFI.ttf"; path = "../Downloads/Matrix Code NFI.ttf"; sourceTree = "<group>"; };
+		09A1F19927CD2A30001ADED9 /* matrix code nfi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "matrix code nfi.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		09A1F15327CD1377001ADED9 = {
 			isa = PBXGroup;
 			children = (
-				09A1F19127CD261F001ADED9 /* Matrix Code NFI.ttf */,
 				09A1F15E27CD1378001ADED9 /* MatrixSwiftUI */,
 				09A1F16F27CD137C001ADED9 /* MatrixSwiftUITests */,
 				09A1F17927CD137C001ADED9 /* MatrixSwiftUIUITests */,
@@ -113,6 +112,7 @@
 		09A1F16527CD137B001ADED9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				09A1F19927CD2A30001ADED9 /* matrix code nfi.ttf */,
 				09A1F16627CD137B001ADED9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -247,7 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A1F19227CD261F001ADED9 /* Matrix Code NFI.ttf in Resources */,
+				09A1F19A27CD2A30001ADED9 /* matrix code nfi.ttf in Resources */,
 				09A1F16727CD137B001ADED9 /* Preview Assets.xcassets in Resources */,
 				09A1F16427CD137B001ADED9 /* Assets.xcassets in Resources */,
 			);

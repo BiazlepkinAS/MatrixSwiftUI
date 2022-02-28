@@ -30,7 +30,7 @@ struct MatrixRainCharacters: View {
             ForEach(0..<constant.count, id: \.self){ index in
                 let character = Array(constant)[getRandomIndex(index: index)]
                 Text(String(character))
-                    .font(.custom("Matrix Code NFI", size: 25))
+                    .font(.custom("matrix code nfi", size: 25))
                     .foregroundColor(Color.green)
             }
         }

@@ -6,8 +6,7 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Matrix Code NFI.ttf</string>
-		<string>matrix code nfi</string>
+		<string>matrix code nfi.ttf</string>
 	</array>
 </dict>
 </plist>
