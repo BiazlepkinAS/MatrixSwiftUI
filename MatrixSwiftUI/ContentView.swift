@@ -1,16 +1,14 @@
-//
-//  ContentView.swift
-//  MatrixSwiftUI
-//
-//  Created by Andrei Bezlepkin on 28.02.22.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      
+        ZStack{
+            Color.black
+            MatrixRainView()
+        }
+        .ignoresSafeArea()
     }
 }
 

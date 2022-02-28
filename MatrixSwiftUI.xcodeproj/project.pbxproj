@@ -14,6 +14,8 @@
 		09A1F17127CD137C001ADED9 /* MatrixSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F17027CD137C001ADED9 /* MatrixSwiftUITests.swift */; };
 		09A1F17B27CD137C001ADED9 /* MatrixSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F17A27CD137C001ADED9 /* MatrixSwiftUIUITests.swift */; };
 		09A1F17D27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F17C27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift */; };
+		09A1F19027CD15A1001ADED9 /* MatrixRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F18F27CD15A1001ADED9 /* MatrixRainView.swift */; };
+		09A1F19227CD261F001ADED9 /* Matrix Code NFI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09A1F19127CD261F001ADED9 /* Matrix Code NFI.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		09A1F17627CD137C001ADED9 /* MatrixSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A1F17A27CD137C001ADED9 /* MatrixSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixSwiftUIUITests.swift; sourceTree = "<group>"; };
 		09A1F17C27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09A1F18B27CD14EF001ADED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		09A1F18F27CD15A1001ADED9 /* MatrixRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainView.swift; sourceTree = "<group>"; };
+		09A1F19127CD261F001ADED9 /* Matrix Code NFI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Matrix Code NFI.ttf"; path = "../Downloads/Matrix Code NFI.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 		09A1F15327CD1377001ADED9 = {
 			isa = PBXGroup;
 			children = (
+				09A1F19127CD261F001ADED9 /* Matrix Code NFI.ttf */,
 				09A1F15E27CD1378001ADED9 /* MatrixSwiftUI */,
 				09A1F16F27CD137C001ADED9 /* MatrixSwiftUITests */,
 				09A1F17927CD137C001ADED9 /* MatrixSwiftUIUITests */,
@@ -94,6 +100,8 @@
 		09A1F15E27CD1378001ADED9 /* MatrixSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				09A1F18C27CD155E001ADED9 /* View */,
+				09A1F18B27CD14EF001ADED9 /* Info.plist */,
 				09A1F15F27CD1378001ADED9 /* MatrixSwiftUIApp.swift */,
 				09A1F16127CD1378001ADED9 /* ContentView.swift */,
 				09A1F16327CD137B001ADED9 /* Assets.xcassets */,
@@ -125,6 +133,14 @@
 				09A1F17C27CD137C001ADED9 /* MatrixSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = MatrixSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		09A1F18C27CD155E001ADED9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09A1F18F27CD15A1001ADED9 /* MatrixRainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A1F19227CD261F001ADED9 /* Matrix Code NFI.ttf in Resources */,
 				09A1F16727CD137B001ADED9 /* Preview Assets.xcassets in Resources */,
 				09A1F16427CD137B001ADED9 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +276,7 @@
 			files = (
 				09A1F16227CD1378001ADED9 /* ContentView.swift in Sources */,
 				09A1F16027CD1378001ADED9 /* MatrixSwiftUIApp.swift in Sources */,
+				09A1F19027CD15A1001ADED9 /* MatrixRainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +440,7 @@
 				DEVELOPMENT_TEAM = B9R854R4A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MatrixSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +470,7 @@
 				DEVELOPMENT_TEAM = B9R854R4A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MatrixSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

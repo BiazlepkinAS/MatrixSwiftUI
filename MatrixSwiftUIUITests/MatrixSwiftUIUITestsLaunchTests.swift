@@ -1,9 +1,3 @@
-//
-//  MatrixSwiftUIUITestsLaunchTests.swift
-//  MatrixSwiftUIUITests
-//
-//  Created by Andrei Bezlepkin on 28.02.22.
-//
 
 import XCTest
 
